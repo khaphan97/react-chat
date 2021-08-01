@@ -2,7 +2,7 @@ import { Avatar, Button, Typography } from "antd";
 import React, { useContext } from "react";
 import styled from "styled-components";
 import { AuthContext } from "../../../Context/AuthProvider";
-import { auth, db } from "../../../firebase/config";
+import { auth } from "../../../firebase/config";
 
 const WrapperStyled = styled.div`
 	display: flex;

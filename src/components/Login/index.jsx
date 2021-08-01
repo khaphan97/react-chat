@@ -1,4 +1,4 @@
-import { FacebookOutlined, GoogleCircleFilled } from "@ant-design/icons";
+import { FacebookOutlined } from "@ant-design/icons";
 import { Button, Col, Row, Typography } from "antd";
 import React from "react";
 import styled from "styled-components";

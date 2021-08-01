@@ -6,13 +6,6 @@ import { AuthContext } from "./AuthProvider";
 
 export const AppContext = React.createContext();
 
-const SpinStyled = styled(Spin)`
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-`;
-
 function AppProvider({ children }) {
 	const [isAddRoomVisible, setIsAddRoomVisible] = React.useState(false);
 	const [isInviteMemberVisible, setIsInviteMemberVisible] = React.useState(false);
