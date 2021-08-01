@@ -124,7 +124,7 @@ function ChatWindow(props) {
 							<Avatar.Group size="small" maxCount={2}>
 								{members.map((member) => (
 									<Tooltip key={member.id} title={member.displayName}>
-										<Avatar>
+										<Avatar scr={members.photoURL}>
 											{members.photoURL ? "" : member.displayName?.charAt(0).toUpperCase()}
 										</Avatar>
 									</Tooltip>

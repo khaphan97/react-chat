@@ -1,6 +1,4 @@
-import { Spin } from "antd";
 import React from "react";
-import styled from "styled-components";
 import useFirestore from "../hooks/useFirestore";
 import { AuthContext } from "./AuthProvider";
 

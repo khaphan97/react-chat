@@ -13,7 +13,6 @@ function AddRoomModal(props) {
 
 	const handleOk = () => {
 		// logic
-		console.log({ formData: form.getFieldsValue() });
 		addDocument("rooms", { ...form.getFieldValue(), members: [uid] });
 		form.resetFields();
 		setIsAddRoomVisible(false);
